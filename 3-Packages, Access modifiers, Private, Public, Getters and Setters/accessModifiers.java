@@ -24,12 +24,15 @@ class Student {
 }
 
 public class accessModifiers {
-    public static void main(String[] args) {
+
+        public static void main(String[] args) {
         Student obj = new Student();
         obj.setAge(28);
         obj.setName("Tejas");
+        
 
        System.out.println(obj.getAge());
        System.out.println(obj.getName());
     }
+    
 }
