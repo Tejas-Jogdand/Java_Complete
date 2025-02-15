@@ -23,7 +23,7 @@ class Rectangle extends Shape {
         System.out.println("Drawing a Rectangle");
     }
 }
-
+ 
 // Main class to demonstrate method overriding
 public class MethodOverriding {
     public static void main(String[] args) {
